@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/logo_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingTop="30dp"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:id="@+id/appName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logo_imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="@string/app_name"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/developerName_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/appName_textView"
+                android:layout_below="@+id/appName_textView"
+                android:text="@string/developer_name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/version_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/supportEmail_textView"
+                android:layout_below="@+id/developerName_textView"
+                android:text="@string/version" />
+
+            <TextView
+                android:id="@+id/supportEmail_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/developerName_textView"
+                android:layout_below="@+id/version_textView"
+                android:layout_marginTop="30dp"
+                android:autoLink="email"
+                android:text="@string/support_email" />
+
+            <TextView
+                android:id="@+id/supportWebsite_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/supportEmail_textView"
+                android:layout_below="@+id/supportEmail_textView"
+                android:layout_marginTop="10dp"
+                android:autoLink="web"
+                android:text="@string/support_website" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

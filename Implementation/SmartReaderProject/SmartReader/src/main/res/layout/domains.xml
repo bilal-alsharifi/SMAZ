@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_all"
+            android:id="@+id/checkAll_checkBox"
+            android:layout_gravity="left|center_vertical"
+            style="@android:style/ButtonBar"
+            android:checked="false"/>
+
+    <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/domains_listView"
+            android:layout_gravity="center"/>
+</LinearLayout>

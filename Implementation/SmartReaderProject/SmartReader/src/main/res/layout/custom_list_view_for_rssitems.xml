@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/rssItem_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/rssItem"
+        android:textSize="17sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/rssChannel_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rssItem_textView"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:text="@string/rssChannel" >
+    </TextView>
+
+</RelativeLayout>

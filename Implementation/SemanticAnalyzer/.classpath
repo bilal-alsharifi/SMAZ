@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/joda-time-2.1-sources.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/joda-time.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/jollyday-0.4.7-sources.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/jollyday.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/stanford-corenlp-1.3.4-javadoc.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/stanford-corenlp-1.3.4-models.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/stanford-corenlp-1.3.4-sources.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/stanford-corenlp-1.3.4.jar"/>
+	<classpathentry kind="lib" path="files/lib/Stanford CoreNLP/xom.jar"/>
+	<classpathentry kind="lib" path="files/lib/JWI/edu.mit.jwi_2.2.4_jdk.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/pdfbox-1.8.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Commons Logging/commons-logging-1.1.2.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-ooxml-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-ooxml-schemas-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache POI/poi-scratchpad-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/fontbox-1.8.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/jempbox-1.8.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/preflight-1.8.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/xmpbox-1.8.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/jsr173_1.0_api.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/resolver.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/xbean_xpath.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/xbean.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/xmlbeans-qname.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache XMLBeans/xmlpublic.jar"/>
+	<classpathentry kind="lib" path="files/lib/dom4j/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Boilerpipe/boilerpipe-1.2.0.jar"/>
+	<classpathentry kind="lib" path="files/lib/Boilerpipe/nekohtml-1.9.13.jar"/>
+	<classpathentry kind="lib" path="files/lib/Boilerpipe/xerces-2.9.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/bcmail-jdk15-144.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/bcprov-jdk15-1.44.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache PDFBox/icu4j-3.8.jar"/>
+	<classpathentry kind="lib" path="files/lib/jsoup/jsoup-1.7.2.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/httpclient-4.2.3.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/httpcore-4.2.2.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/jcl-over-slf4j-1.6.4.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/jena-arq-2.10.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/jena-core-2.10.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/jena-iri-0.9.6.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/jena-tdb-0.10.1.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/slf4j-api-1.6.4.jar"/>
+	<classpathentry kind="lib" path="files/lib/Apache Jena/slf4j-log4j12-1.6.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

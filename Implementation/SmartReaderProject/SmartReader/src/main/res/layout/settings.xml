@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/strictness"
+                android:id="@+id/strictness_textView"
+                android:layout_gravity="center"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:paddingRight="10dp"
+                />
+
+        <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/strictness_seekBar"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:paddingTop="20dp">
+
+        <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_news_count"
+                android:id="@+id/showNewsCount_switch"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

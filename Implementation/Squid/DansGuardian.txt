@@ -1,0 +1,7 @@
+-install squid
+-install dansguardian from ubuntu software center
+-terminal : sudo gedit /etc/dansguardian/dansguardian.conf 
+Add comment (#) to: 
+#UNCONFIGURED
+
+-use this proxy: 127.0.0.1:8080

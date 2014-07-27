@@ -1,0 +1,3 @@
+-http://wiki.squid-cache.org/SquidFaq/ContentAdaptation
+-http://wiki.squid-cache.org/Features/ICAP
+-http://wiki.squid-cache.org/Features/eCAP

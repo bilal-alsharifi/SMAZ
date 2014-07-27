@@ -1,0 +1,39 @@
+-terminal : sudo apt-get install squid
+-terminal : sudo cp /etc/squid3/squid.conf /etc/squid3/squid.conf.original
+-use 127.0.0.1:3128 proxy in the browser
+
+
+-if you want to make sure that you are behind proxy go to
+http://whatismyipaddress.com/proxy-check
+
+-to deny access to a website like foo.com, search for 'Access Controls' in /etc/squid3/squid.conf and append following two lines:
+acl rule1 dstdomain .foo.com
+http_access deny rule1
+
+then restart squid server
+
+-to deny access to a list of websites, search for 'Access Controls' in /etc/squid3/squid.conf and append following two lines:
+acl rule1 url_regex "/etc/squid3/squid-block.acl"
+http_access deny rule1
+
+then restart squid server
+
+-to restart the server
+sudo /etc/init.d/squid3 restart
+
+-to view the logs
+/var/log/squid/
+
+-to allow access from external clients
+go to /etc/squid3/squid.conf
+change this:
+
+# And finally deny all other access to this proxy
+http_access deny all
+
+to this
+
+# And finally deny all other access to this proxy
+http_access allow all
+
+

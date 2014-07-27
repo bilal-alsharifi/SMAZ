@@ -1,0 +1,13 @@
+serviceURL = http://localhost:8081/SemanticAnalyzerService/index.jsp;
+getDocContentFromProxy = false;
+sortDocDomainsByWeight = true;
+addWeightsToAncestors = false;
+shortWordsLimit = 3;
+acceptedTags = NN, VB, JJ, RB;
+searchInDbPedia = true;
+dbPediaPredicates = http://purl.org/dc/terms/subject;
+dbPediaResultsLimit = 3;
+disambiguationMethod = 2;
+leskWindowSize = 3;
+leskComparisonWay = 1;
+withCoreference = false;

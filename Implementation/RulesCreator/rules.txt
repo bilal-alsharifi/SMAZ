@@ -1,0 +1,10 @@
+politics >= 0.6 & diplomacy >= 0.7  : u;
+politics >= 0.4 & diplomacy < 0.7 (israel) : b;
+politics >= 0.4 & military >= 0.5 (army, kill) : b;
+sexuality >= 0.2 & genetics >= 0.6 : u;
+sexuality >= 0.2 (porn, xxx, 18+) : b;
+applied_science >= 0.7 & entomology > 0.5 : b;
+food >= 0.7 & gastronomy >= 0.4 : b;
+swimming >= 0.7 & sexuality >= 0.2 (hot, naked, bathing & suit) : b;
+swimming >= 0.7 : u;
+

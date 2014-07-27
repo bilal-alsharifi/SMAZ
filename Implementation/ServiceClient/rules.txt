@@ -1,0 +1,2 @@
+Sexuality >= 0.2 & psychoanalysis  >= 0.1 (sex, porn & girl) : u;
+Sexuality >= 0.2 : b;
